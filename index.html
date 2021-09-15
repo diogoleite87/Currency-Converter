@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <h1>Currency converter for USD</h1>
+        <p>Convert your currencies</p>
+    </div>
+    <div>
+        <label for="exp"><strong>Select the currency:</strong></label>
+        <select id="exp">
+            <option value="1">BRL</option>
+            <option value="2">EURO</option>
+            <option value="3">PESO</option>
+        </select>
+    </div>
+    <div>
+        <label>Enter the value:</label>
+        <br>
+        <input type="number" id="valor">
+        <br>
+        <button type="submit" onclick="converter()" id="botaoConfirma">Trade</button>
+        <p id="valorConvertido"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
