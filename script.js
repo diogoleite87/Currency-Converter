@@ -9,7 +9,7 @@ function converter() {
     // trasnformar uma string em numerico
 
 
-    var moeda = document.querySelector("#exp");
+    var moeda = document.getElementById("exp");
 
     
     if (moeda.value==1) {
@@ -27,7 +27,7 @@ function converter() {
 
     document.getElementById("valorConvertido").innerHTML = valorFinalUSD;
 
-    console.log(moeda);
+
     console.log(num);
     console.log(valorFinal);
 }
